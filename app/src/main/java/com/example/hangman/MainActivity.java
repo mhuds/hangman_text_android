@@ -27,11 +27,15 @@ public class MainActivity extends AppCompatActivity {
 
         GE = new GameEngine(this);
         GE.grabWord();
-        //TODO:  REMOVE CHEAT CALLS EVENTUALLY
-        howdy = GE.cheat();
+
+/*        howdy = GE.cheat();
+        TextView textView = findViewById(R.id.debug);
+        textView.setText(howdy);*/
+        howdy = "";
         TextView textView = findViewById(R.id.debug);
         textView.setText(howdy);
-        //END TODO
+
+
 
         updateUI();
 
@@ -82,11 +86,11 @@ public class MainActivity extends AppCompatActivity {
                 gameover.putExtra(extra_label,extrasout.toString());
                 startActivity(gameover);
                 GE.grabWord();
-                //TODO:  REMOVE CHEAT CALLS EVENTUALLY
-                howdy = GE.cheat();
+
+                howdy = "";
                 TextView textView = findViewById(R.id.debug);
                 textView.setText(howdy);
-                //END TODO
+
                 updateUI();
                 GE.resetVals();
                 resetGuessLog();

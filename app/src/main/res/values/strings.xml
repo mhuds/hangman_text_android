@@ -2,7 +2,7 @@
     <string name="app_name">HangMan</string>
     <string name="start">Go Time</string>
     <string name="bt_stuff">Button</string>
-    <string name="guess_box">\?</string>
+    <string name="guess_box"></string>
     <string name="guess_btn">Guess</string>
     <string name="giveUp_btn">Give Up</string>
     <string name="guess_history">Guess History</string>
