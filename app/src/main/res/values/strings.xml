@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">HangMan</string>
+    <string name="start">Go Time</string>
+    <string name="bt_stuff">Button</string>
+    <string name="guess_box">\?</string>
+    <string name="guess_btn">Guess</string>
+    <string name="giveUp_btn">Give Up</string>
+    <string name="guess_history">Guess History</string>
+    <string name="puzzle_box">Puzzle Appears Here</string>
+    <string name="lives_left">Guesses remaining</string>
+    <string name="lives_val">0</string>
+    <string name="round_ended_lost">You Lost!</string>
+    <string name="round_ended_won">You Won!</string>
+    <string name="big_reveal_default">The word was: </string>
+</resources>
